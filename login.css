@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(tirtanadi.png);
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+	color:red; 
+    
+}
+
+.login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0, 0, 15, 0.5);
+	padding: 120px;
+	width: 270px;
+	box-shadow: 0 0 20px 3px blue;
+
+ } 
+
+
+
+ .avatar{
+ 	font-size: 27px;
+ 	background: #bdc3c7;
+ 	background-color:blue; 
+ 	width: 52px;
+ 	height: 30px;
+ 	line-height: 14px;
+ 	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: -4%;
+	transform: translate(-50%, -60%);
+	border-radius: 10%: 
+	color: #2c3e50;
+ }
+
+ .login h2 {
+ 	text-align: center;
+ 	color: white;
+	padding-top: 10px
+	letter-spacing: 5px;
+ }
+
+.box-login{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	border-bottom: 3px;
+	padding: -14px 0;
+
+}
+.box-daftar{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+	border-bottom: 3px;
+	padding: -35px 0;
+	transform: translate(145%, 60%);
+
+
+}
+.box-login i {
+	font-size: 28px;
+	color: red;
+	left: 60%;
+	top: 70%;
+	transform: translate(-160%, -60%);
+
+}
+.box-login input {
+	background: red;
+	width: 190px;
+	height: 30px;
+	border: none;
+	outline: none;
+	color: red;
+	background: rgba(0, 0, 0, 0.5);
+
+	box-shadow: 0 0 15px 3px blue;
+}
+.box-login input::placeholder{
+	color: white;
+
+}
+.btn-login{
+	width: -50px;
+	height: -100px;
+	background: red;
+	padding: 10px;
+	background: rgba(0, 0, 15, 0.5);
+	color: red;
+
+}
+.box-daftar{
+	width: -50px;
+	height: -100px;
+	padding: 10px;
+	transform: translate(10%, 30%);
+
+}
+#submit-btn {
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #24c64f;
+  cursor: pointer;
+  color: red;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 30px;
+  transition: 0.25s;
+  width: 153px;
+  text-align: center;
+  padding: 10px 15px;
+ float: center;
+ position: absolute;
+ left:44%;
+ background: rgba(0, 0, 0, 0.1);
+transform: translate(-120%, -160%);
+}
+
